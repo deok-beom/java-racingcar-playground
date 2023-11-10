@@ -18,7 +18,7 @@ public class Car {
     }
 
     public String visualizeMoveState() {
-        StringBuilder sb = new StringBuilder(String.format("%-10s", name));
+        StringBuilder sb = new StringBuilder(String.format("%-5s", name));
         sb.append(" : ");
         for (int i = 0; i < location; i++) {
             sb.append("-");
